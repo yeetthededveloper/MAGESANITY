@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.mryeetman.magesanity.block.ModBlocks;
 import net.mryeetman.magesanity.item.ModItems;
 import org.slf4j.Logger;
 
@@ -28,6 +29,7 @@ public class Magesanity
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -55,6 +57,7 @@ public class Magesanity
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             //put items here
             event.accept(ModItems.EXITEM);
+            event.accept(ModBlocks.JOMAMA_BLOCK);
 
         }
 

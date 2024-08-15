@@ -13,7 +13,7 @@ public class ModItems {
 
 
     //this is where you add items use the code below for each item but change the names and stuff
-    public static final RegistryObject<Item> EXITEM = ITEMS.register("exitem" ,
+    public static final RegistryObject<Item> EXITEM = ITEMS.register("appelsaouce" ,
             () -> new Item(new Item.Properties()));
 
 

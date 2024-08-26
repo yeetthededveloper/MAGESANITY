@@ -1,4 +1,4 @@
-package net.mryeetman.magesanity.datagen;
+//package net.mryeetman.magesanity.datagen;
 
-public class ModRecipieProvider {
-}
+//public class ModRecipieProvider {
+//}

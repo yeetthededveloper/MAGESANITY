@@ -15,7 +15,7 @@ public class withcaulblock extends BaseEntityBlock {
     public static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 12 ,16);
 
 
-    protected withcaulblock(Properties pProperties) {
+    public withcaulblock(Properties pProperties) {
         super(pProperties);
     }
 

@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.mryeetman.magesanity.Magesanity;
+import net.mryeetman.magesanity.block.costom.withcaulblock;
 import net.mryeetman.magesanity.item.ModItems;
 
 import java.util.function.Supplier;
@@ -23,9 +24,9 @@ public class ModBlocks {
             //you can override properties for example you can add .sounds or somthing new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)!!!!HERE!!!))
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
-    public static final RegistryObject<Block> BREWING_CAOUL = registerBlock("witchcal",
+    public static final RegistryObject<Block> BREWING_CAOUL = registerBlock("brewing_caoul",
             //you can override properties for example you can add .sounds or somthing new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)!!!!HERE!!!))
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new withcaulblock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
 

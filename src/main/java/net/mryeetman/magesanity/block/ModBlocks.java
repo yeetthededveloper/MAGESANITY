@@ -23,6 +23,12 @@ public class ModBlocks {
             //you can override properties for example you can add .sounds or somthing new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)!!!!HERE!!!))
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
+    public static final RegistryObject<Block> BREWING_CAOUL = registerBlock("witchcal",
+            //you can override properties for example you can add .sounds or somthing new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)!!!!HERE!!!))
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
+
 
 
 

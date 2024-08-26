@@ -11,11 +11,11 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
-public class withcaulblock extends BaseEntityBlock {
+public class WithCaulBlock extends BaseEntityBlock {
     public static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 12 ,16);
 
 
-    public withcaulblock(Properties pProperties) {
+    public WithCaulBlock(Properties pProperties) {
         super(pProperties);
     }
 

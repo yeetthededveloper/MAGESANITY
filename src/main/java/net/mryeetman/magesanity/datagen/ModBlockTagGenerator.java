@@ -2,6 +2,7 @@ package net.mryeetman.magesanity.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.mryeetman.magesanity.Magesanity;
@@ -17,6 +18,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
 // use this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-//                .add(ModBlocks.SAPPHIRE_ORE.get()).addTag(Tags.Blocks.ORES); to add tags
+//                .add(ModBlocks.SAPPHIRE_ORE.get()).addTag(Tags.Blocks.ORES); to add tags you need to have a tags class
+
+
     }
 }

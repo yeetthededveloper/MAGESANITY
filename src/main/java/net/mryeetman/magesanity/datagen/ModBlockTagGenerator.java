@@ -16,6 +16,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-
+// use this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
+//                .add(ModBlocks.SAPPHIRE_ORE.get()).addTag(Tags.Blocks.ORES); to add tags
     }
 }
